@@ -25,6 +25,7 @@ type Props = {
 		buttonBox?: ViewStyle,
 		cancelButtonBox?: ViewStyle,
 		cancelButtonText?: TextStyle,
+		backgroundColor?: ViewStyle,
 
 		overlay?: TextStyle,
 		wrapper?: ViewStyle,
