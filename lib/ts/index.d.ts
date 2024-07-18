@@ -15,6 +15,8 @@ type Props = {
 	styles?: {
 		titleBox?: ViewStyle,
 		titleText?: TextStyle,
+		textLightTheme?: TextStyle,
+		textDarkTheme?: TextStyle,
 
 		messageBox?: ViewStyle,
 		messageText?: TextStyle,

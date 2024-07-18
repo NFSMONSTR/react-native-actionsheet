@@ -1,6 +1,6 @@
 {
-  "name": "@boboxiaodd/react-native-actionsheet",
-  "version": "3.2.0",
+  "name": "react-native-actionsheet",
+  "version": "3.2.1",
   "description": "Cross platform ActionSheet. This component implements a custom ActionSheet  and provides the same way to drawing it on the defferent platforms(iOS and Android). Actually, In order to keep the best effect, it still uses the ActionSheetIOS on iOS.",
   "main": "lib/index.js",
   "types": "lib/ts/index.d.ts",
@@ -42,6 +42,7 @@
     "prop-types": ">=15.4.0",
     "react": ">=15.4.0",
     "react-native": "*"
+	"react-native-safe-area-context": "^4.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
@@ -51,9 +52,6 @@
     "jest": "^21.2.1",
     "react-test-renderer": "15.4.0",
     "standard": "*"
-  },
-  "dependencies":{
-    "react-native-safe-area-context": "^4.5.0"
   },
   "standard": {
     "parser": "babel-eslint"
